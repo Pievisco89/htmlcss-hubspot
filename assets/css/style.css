@@ -23,7 +23,7 @@ clearfix:after{
   height: 1500px;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
-  background-color: coral;
+  background-color: aqua;
 }
 
 /* fixed */
@@ -99,4 +99,42 @@ li{
 /* header */
 .header-container{
   height: 80px;
+  background-color: white;
 }
+
+.logo{
+  margin: 25px 0;
+}
+
+.header-menu{
+  line-height: 80px;
+}
+
+.header-menu a{
+  color: black;
+  font-size: 15px;
+  line-height: 80px;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.header-menu i{
+  padding-left: 10px;
+}
+
+/* jumbotron */
+.jumbotron {
+  position: relative;
+  height: 710px; 
+ /*  background-color: hotpink; */
+}
+
+.jumbotron-text {
+  width: 35%;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+.jumbotron h1 {
+  
+}   
