@@ -23,7 +23,7 @@ clearfix:after{
   height: 1500px;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
-  /* background-color: coral; */
+  background-color: coral;
 }
 
 /* fixed */
@@ -40,33 +40,33 @@ clearfix:after{
   margin: auto;
 }
 
-.logo{
+.nav{
   width: 40%;
 }
 
-.logo-right{
+.nav-right{
   width: 40%;
   line-height: 80px;
   text-align: right;
 }
 
-.logo-text a{
+.nav-text a{
   color: black;
   font-size: 15px;
   line-height: 80px;
   text-decoration: none;
 }
 
-.logo-left{
+.nav-left{
   border-right: 1px solid grey;
   padding-right: 20px;
 }
 
-.logo-contact{
+.nav-contact{
   padding-left: 20px;
 }
 
-.logo-text i{
+.nav-text i{
   padding-right: 10px;
 }
 
@@ -94,4 +94,9 @@ li{
   color: #ff8f59;
   border: 1px solid #ff8f59;
   background-color: transparent;
+}
+
+/* header */
+.header-container{
+  height: 80px;
 }
