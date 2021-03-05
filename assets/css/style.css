@@ -23,7 +23,7 @@ clearfix:after{
   height: 1500px;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
-  background-color: aqua;
+ /*  background-color: aqua; */
 }
 
 /* fixed */
@@ -123,8 +123,9 @@ li{
 /* jumbotron */
 .jumbotron {
   position: relative;
-  height: 710px; 
- /*  background-color: hotpink; */
+  height: 760px; 
+  background-image: url('../img/jumbotron.png');
+  background-size: cover;
 }
 
 .jumbotron-text {
