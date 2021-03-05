@@ -32,7 +32,7 @@ clearfix:after{
   height: 80px;
   margin: auto;
   background-color: #f5f8fa;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #33475b;
 }
 
 .w-80{
@@ -51,7 +51,6 @@ clearfix:after{
 }
 
 .nav-text a{
-  color: black;
   font-size: 15px;
   line-height: 80px;
   text-decoration: none;
@@ -111,7 +110,6 @@ li{
 }
 
 .header-menu a{
-  color: black;
   font-size: 15px;
   line-height: 80px;
   text-decoration: none;
@@ -135,6 +133,30 @@ li{
   left: 10%;
   top: 20%;
 }
-.jumbotron h1 {
-  
-}   
+
+.jumbotron-text h1, p, a{
+  margin-bottom:  25px;
+}
+
+.jumbotron-text a{
+  margin-left: 0;
+  padding: 10px 40px;
+}
+
+/* font-size testo */
+.f-size-25{
+  font-size: 40px;
+}
+
+.f-size-15{
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.f-size-10{
+  font-size: 10px;
+}
+
+.f-color{
+  color: #33475b;
+}
