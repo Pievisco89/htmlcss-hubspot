@@ -23,7 +23,7 @@ clearfix:after{
   height: 1500px;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
- /*  background-color: aqua; */
+  /* background-color: aqua; */
 }
 
 /* fixed */
@@ -149,6 +149,10 @@ li{
   font-size: 40px;
 }
 
+.f-size-20{
+  font-size: 20;
+}
+
 .f-size-15{
   font-size: 13px;
   line-height: 25px;
@@ -160,4 +164,25 @@ li{
 
 .f-color{
   color: #33475b;
+}
+
+/* Main */
+main{
+  background-color: #f5f8fa;
+}
+/* cube */
+.cube{
+  height: 410px;
+  text-align: center;
+}
+
+.cube img{
+  height: 190px;
+  margin-top: 50px;
+}
+
+.cube-text p{
+  margin: auto;
+  margin-top: 40px;
+  width: 60%;
 }
