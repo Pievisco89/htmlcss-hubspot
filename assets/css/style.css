@@ -21,7 +21,6 @@ clearfix:after{
 .container{
   width: 100%;
   min-width: 1200px;
-  height: 1500px;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
   /* background-color: aqua; */
@@ -216,7 +215,7 @@ main{
   margin: 70px 100px;
 }
 
-.free-crm h6{
+.free-crm h4{
   font-size: 18px;
   margin-bottom: 30px;
 }
@@ -252,5 +251,71 @@ main{
   margin-right: 5px;
 }
 
+/* colonne */
+.col{
+  margin-top: 50px;
+  text-align: center;
+  height: 650px;
+}
 
+.col img{
+  height: 120px;
+  margin-top: 15px;
+}
 
+.col-left, .col-center, .col-right {
+  width: 26%;
+  box-shadow: 1px 1px grey;
+  padding: 5px;
+  background-color: white;
+}
+
+.col-left{
+  margin-left: 0;
+  margin-right: 5%;
+}
+
+.col-center{
+  margin: 0 5%;
+}
+
+.col-text h4{
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.col-text p{
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.col-text hr{
+  width: 60%;
+  margin: 40px auto;
+  background-color: #33475b;
+}
+
+.col-text h5{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.col ul{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.col li{
+  display: block;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.col .learn-more{
+  text-align: center;
+}
+
+.learn-more a{
+  padding: 5px 25px;
+}
