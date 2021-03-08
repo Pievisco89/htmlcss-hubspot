@@ -20,6 +20,7 @@ clearfix:after{
 
 .container{
   width: 100%;
+  min-width: 1200px;
   height: 1500px;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
@@ -209,5 +210,47 @@ main{
   margin-left: 130px;
   padding: 5px 40px;
 }
+
+.free-crm{
+  width: 50%;
+  margin: 70px 100px;
+}
+
+.free-crm h6{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.free-crm span{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.free-crm hr{
+  display: inline-block;
+  width: 65%;
+  vertical-align: middle;
+  margin-left: 50px;
+  background-color: grey;
+}
+
+.free-crm ul{
+  margin-top: 30px;
+}
+
+.free-crm li{
+  margin-right: 20px;
+}
+
+/* check */
+.check{
+  background-color: #ff8f59;
+  border-color: #ff8f59;
+  border-radius: 50%;
+  color: white;
+  margin-right: 5px;
+}
+
 
 
