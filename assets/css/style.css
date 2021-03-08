@@ -98,6 +98,9 @@ li{
 }
 
 /* header */
+header{
+  padding-top: 80px;
+}
 .header-container{
   height: 80px;
   background-color: white;
@@ -385,6 +388,41 @@ main{
   text-align: center;
 }
 
+/* customer */
+.customer-container{
+  width: 60%;
+  margin: auto;
+}
+
+.customer-text{
+  width: 25%;
+}
+
+.customer-text h1{
+  font-size: 40px;
+  margin: 40px 0;
+}
+
+.customer-text p{
+  font-size: 15px;
+}
+
+.customer-list{
+  position: relative;
+  width: 45%;
+  text-align: right;
+}
+
+.customer-list img{
+  width: 120px;
+  margin-top: 50px;
+  padding-right: 10px;
+}
+
+.customer-logo{
+  position: absolute; 
+  left: 80px;
+}
 
 
 
