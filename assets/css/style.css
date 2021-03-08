@@ -388,13 +388,18 @@ main{
 }
 
 /* customer */
+.customer{
+  width: 100%;
+}
+
 .customer-container{
-  width: 60%;
+  width: 70%;
   margin: auto;
 }
 
 .customer-text{
   width: 25%;
+  padding-left: 25px;
 }
 
 .customer-text h1{
@@ -404,31 +409,20 @@ main{
 
 .customer-text p{
   font-size: 15px;
+  line-height: 5px;
 }
 
 .customer-list{
-  position: relative;
-  width: 45%;
-  text-align: right;
+  width: 55%;
+  margin-left: 210px;
 }
 
-.customer-list img{
+.customer-logo img{
   width: 120px;
   margin-top: 50px;
-  padding-right: 10px;
+  padding-right: 20px;
+  vertical-align: middle;
 }
-
-.customer-logo{
-  position: absolute; 
-  left: 80px;
-}
-
 /* start */
-.start{
-  width: 80%;
-  margin: auto;
-  height: 400px;
-}
-
 
 
