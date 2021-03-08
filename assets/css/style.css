@@ -425,12 +425,14 @@ main{
 }
 /* start */
 .start{
-  margin: 30px auto;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .start-text{
   width: 35%;
   margin-top: 30px;
+  padding-bottom: 35px;
 }
 
 .start h1{
@@ -439,6 +441,7 @@ main{
 
 .start-text a{
   margin-left: 0;
+
 }
 
 .start-img{
@@ -450,4 +453,74 @@ main{
   width: 250px;
 }
 
+/* footer */
+footer{
+  color: white;
+  background-color: #2f445a;
+}
 
+.footer-container{
+  width: 80%;
+  margin: auto;
+}
+
+.footer-col-1{
+  width: 20%;
+  padding-top: 40px;  
+  margin-right: 50px;
+}
+
+.footer-col-1 li{
+  display: block;
+  line-height: 50px;
+  font-size: 12px;
+}
+
+.footer-col-1 h3{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-button{
+  background-color: #f5f8fa;
+  color: #2f445a;
+  text-decoration: none;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 12px 12px;
+}
+
+.footer-social li{
+  display: inline;
+  padding-right: 10%;
+}
+
+.footer-language{
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.footer-language-list li{
+  display: inline;
+  font-size: 12px;
+  padding: 15px 15px;
+}
+
+
+.footer-logo{
+  margin: auto;
+  border-top: 1px solid white;
+  padding-top: 40px;
+}
+
+.footer-logo p{
+  font-size: 12px;
+}
+
+.footer-logo li{
+  padding-left: 20px;
+  font-size: 12px;
+}
