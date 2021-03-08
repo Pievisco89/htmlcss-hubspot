@@ -325,12 +325,11 @@ main{
 /* grow */
 .grow{
   width: 100%;
-  height: 700px;
+  padding-bottom: 70px;
   background-color: #00a6bb;
 }
 
 .grow-text{
-  height: 180px;
   text-align: center;
   color: white;
   padding-top: 35px;
@@ -345,22 +344,49 @@ main{
   padding-top: 20px;
 }
 
-.table .oggetto{
-  width: 20%;
-  height: 160px;
-  margin-top: 25px;
-  display: inline-block;
-  border-right: 1px solid white;
-  text-align: center;
+/* table */
+.table{
+  color: white;
 }
 
-.oggetto.right{
-  border-right: none;
-}                
-
-.row{
-  width: 80%;
-  margin: auto;
+.row-up{
+  height: 160px;
   text-align: center;
   border-bottom: 1px solid white;
 }
+
+.oggetto{
+  padding-top: 25px;
+  width: 25%;
+  height: 160px;
+  border-right: 1px solid white;
+}
+
+.oggetto.no-border-right{
+  border-right: none;
+}
+
+.oggetto img{
+  margin-bottom: 10px;
+}
+
+.oggetto h1{
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+.oggetto i{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.row-down{
+  height: 160px;
+  text-align: center;
+}
+
+
+
+
+
+
