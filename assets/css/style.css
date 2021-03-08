@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-clearfix:after{
+.clearfix:after{
   content: '';
   display: table;
   clear: both;
@@ -424,5 +424,30 @@ main{
   vertical-align: middle;
 }
 /* start */
+.start{
+  margin: 30px auto;
+}
+
+.start-text{
+  width: 35%;
+  margin-top: 30px;
+}
+
+.start h1{
+  margin-bottom: 20px;
+}
+
+.start-text a{
+  margin-left: 0;
+}
+
+.start-img{
+  width: 45%;
+  text-align: right;
+}
+
+.start-img img{
+  width: 250px;
+}
 
 
