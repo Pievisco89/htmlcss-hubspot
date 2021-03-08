@@ -23,7 +23,6 @@ clearfix:after{
   min-width: 1200px;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
-  /* background-color: aqua; */
 }
 
 /* fixed */
@@ -424,7 +423,12 @@ main{
   left: 80px;
 }
 
-
+/* start */
+.start{
+  width: 80%;
+  margin: auto;
+  height: 400px;
+}
 
 
 
