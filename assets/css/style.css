@@ -309,14 +309,22 @@ main{
   font-size: 15px;
 }
 
-.col-text hr{
-  width: 60%;
-  margin: 40px auto;
-  background-color: #33475b;
+.col-text{
+  position: relative;
+}
+
+.col-text p::after{
+  position: absolute;
+  content: '';
+  top: 39%;
+  left: 10%;
+  width: 80%;
+  border-bottom: 2px solid grey;
 }
 
 .col-text h5{
   font-size: 18px;
+  padding-top: 20%;
   text-transform: uppercase;
 }
 
