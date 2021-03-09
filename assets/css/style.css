@@ -98,6 +98,7 @@ li{
 
 /* header */
 header{
+  position: relative;
   padding-top: 80px;
 }
 .header-container{
@@ -122,6 +123,16 @@ header{
 
 .header-menu i{
   padding-left: 10px;
+}
+
+.header-bottom{
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(178, 250, 250);
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
 }
 
 /* jumbotron */
