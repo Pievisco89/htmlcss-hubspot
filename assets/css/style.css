@@ -29,6 +29,7 @@
 .nav-fixed-container{
   position: fixed;
   width: 100%;
+  min-width: 1200px;
   height: 80px;
   margin: auto;
   z-index: 999;
@@ -70,7 +71,7 @@
   padding-right: 10px;
 }
 
-li{
+.nav-right li{
   list-style: none;
   display: inline;
 }
@@ -123,6 +124,11 @@ header{
 
 .header-menu i{
   padding-left: 10px;
+}
+
+.header-menu li{
+  list-style: none;
+  display: inline;
 }
 
 .header-bottom{
@@ -246,7 +252,7 @@ main{
 .free-crm span::after{
   position: absolute;
   content: '';
-  top: 69%;
+  top: 58%;
   left: 35%;
   display: inline-block;
   width: 70%;
@@ -259,6 +265,7 @@ main{
 }
 
 .free-crm li{
+  list-style: none;
   margin-right: 20px;
 }
 
@@ -316,7 +323,7 @@ main{
 .col-text p::after{
   position: absolute;
   content: '';
-  top: 39%;
+  top: 38%;
   left: 10%;
   width: 80%;
   border-bottom: 2px solid grey;
@@ -376,7 +383,6 @@ main{
 }
 
 .row-up{
-  height: 160px;
   text-align: center;
   border-bottom: 1px solid white;
 }
@@ -413,7 +419,6 @@ main{
 }
 
 .row-down{
-  height: 160px;
   text-align: center;
 }
 
@@ -424,6 +429,7 @@ main{
 
 .customer-container{
   width: 70%;
+  min-width: 1200px;
   margin: auto;
 }
 
@@ -443,8 +449,13 @@ main{
 }
 
 .customer-list{
-  width: 55%;
+  width: 45%;
   margin-left: 210px;
+}
+
+.customer-list li{
+  list-style: none;
+  display: inline;
 }
 
 .customer-logo img{
@@ -491,6 +502,7 @@ footer{
 
 .footer-container{
   width: 80%;
+  min-width: 1200px;
   margin: auto;
 }
 
@@ -551,6 +563,8 @@ footer{
 }
 
 .footer-logo li{
+  list-style: none;
+  display: inline;
   padding-left: 20px;
   font-size: 12px;
 }
