@@ -205,6 +205,7 @@ main{
 /* Free */
 .free{
   height: 340px;
+  box-shadow: 1px 1px 10px rgb(175, 173, 173);
   background-color: white;
 }
 
@@ -279,8 +280,8 @@ main{
 }
 
 .col-left, .col-center, .col-right {
-  width: 26%;
-  box-shadow: 1px 1px grey;
+  width: 27%;
+  box-shadow: 1px 1px 10px rgb(175, 173, 173);
   padding: 5px;
   background-color: white;
 }
@@ -467,7 +468,7 @@ main{
 }
 
 .start-img img{
-  width: 250px;
+  width: 270px;
 }
 
 /* footer */
