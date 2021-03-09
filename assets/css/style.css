@@ -328,7 +328,7 @@ main{
 .grow{
   width: 100%;
   padding-bottom: 70px;
-  background-color: #00a6bb;
+  background-image: linear-gradient(#00a6bb, rgb(4, 170, 170));
 }
 
 .grow-text{
@@ -481,7 +481,7 @@ footer{
   margin-bottom: 20px;
 }
 
-.footer-button{
+#footer-button{
   background-color: #f5f8fa;
   color: #2f445a;
   text-decoration: none;
@@ -523,4 +523,9 @@ footer{
 .footer-logo li{
   padding-left: 20px;
   font-size: 12px;
+}
+
+.footer-logo a, .footer-language-list a, .footer-social a, .footer-list a{
+  color: white;
+  text-decoration: none;
 }
