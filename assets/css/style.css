@@ -148,6 +148,11 @@ header{
   display: block;
 }
 
+.dropdown-text{
+  margin-left: 2%;
+  line-height: 20px;
+}
+
 .dropdown li{
   color: #33475b;
   font-size: 12px;
