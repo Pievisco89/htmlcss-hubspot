@@ -131,6 +131,28 @@ header{
   display: inline;
 }
 
+.dropdown{
+  position: absolute;
+  display: none;
+  top: 15%;
+  right: 35%;
+  width: 350px;
+  height: 450px;
+  box-shadow: 1px 1px 10px rgb(175, 173, 173);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+  z-index: 2;
+}
+
+.dropdown-content:hover .dropdown {
+  display: block;
+}
+
+.dropdown li{
+  color: #33475b;
+  font-size: 12px;
+}
+
 .header-bottom{
   position: absolute;
   bottom: 1px;
